@@ -1,0 +1,54 @@
+{
+   "abstract" : "Catmandu modules for working with BibTeX data",
+   "author" : [
+      "unknown"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Catmandu-BibTeX",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::Exception" : "0",
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Catmandu" : "0.2",
+            "LaTeX::Encode" : "0.08",
+            "namespace::clean" : "0.24",
+            "perl" : "v5.10.1"
+         }
+      }
+   },
+   "provides" : {
+      "Catmandu::BibTeX" : {
+         "file" : "lib/Catmandu/BibTeX.pm",
+         "version" : "0.02"
+      },
+      "Catmandu::Exporter::BibTeX" : {
+         "file" : "lib/Catmandu/Exporter/BibTeX.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.02"
+}
