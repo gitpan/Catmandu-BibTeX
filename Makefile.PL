@@ -6,7 +6,8 @@ WriteMakefile
   'NAME' => 'Catmandu::BibTeX',
   'VERSION_FROM' => 'lib/Catmandu/BibTeX.pm',
   'PREREQ_PM' => {
-                   'Catmandu' => '0.2',
+                   'BibTeX::Parser' => '0.64',
+                   'Catmandu' => '0.5',
                    'LaTeX::Encode' => '0.08',
                    'Test::Exception' => 0,
                    'Test::More' => 0,

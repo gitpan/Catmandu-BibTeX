@@ -17,15 +17,19 @@ name: Catmandu-BibTeX
 provides:
   Catmandu::BibTeX:
     file: lib/Catmandu/BibTeX.pm
-    version: 0.02
+    version: 0.03
   Catmandu::Exporter::BibTeX:
     file: lib/Catmandu/Exporter/BibTeX.pm
     version: 0
+  Catmandu::Importer::BibTeX:
+    file: lib/Catmandu/Importer/BibTeX.pm
+    version: 0
 requires:
-  Catmandu: 0.2
+  BibTeX::Parser: 0.64
+  Catmandu: 0.5
   LaTeX::Encode: 0.08
   namespace::clean: 0.24
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03
