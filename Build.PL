@@ -11,13 +11,20 @@ my $builder = Module::Build->new(
     },
     requires => {
         'perl' => '5.10.1',
-        'Catmandu' => '0.5',
         'BibTeX::Parser' => '0.64',
+        'Catmandu' => '0.8006',
         'LaTeX::Encode' => '0.08',
         'namespace::clean' => '0.24',
     },
     add_to_cleanup     => [ 'Catmandu-BibTeX-*' ],
     create_makefile_pl => 'traditional',
+    meta_merge => {
+         resources => {
+              repository => 'https://github.com/LibreCat/Catmandu-BibTeX.git',
+              bugtracker => 'https://github.com/LibreCat/Catmandu-BibTeX/issues',
+              homepage => 'https://github.com/LibreCat/Catmandu-BibTeX',
+        },
+    },
 );
 
 $builder->create_build_script;

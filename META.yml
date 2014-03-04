@@ -6,9 +6,9 @@ build_requires:
   Test::Exception: 0
   Test::More: 0
 configure_requires:
-  Module::Build: 0.40
+  Module::Build: 0.42
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Module::Build version 0.4203, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,19 +17,20 @@ name: Catmandu-BibTeX
 provides:
   Catmandu::BibTeX:
     file: lib/Catmandu/BibTeX.pm
-    version: 0.03
+    version: 0.04
   Catmandu::Exporter::BibTeX:
     file: lib/Catmandu/Exporter/BibTeX.pm
-    version: 0
   Catmandu::Importer::BibTeX:
     file: lib/Catmandu/Importer/BibTeX.pm
-    version: 0
 requires:
   BibTeX::Parser: 0.64
-  Catmandu: 0.5
+  Catmandu: 0.8006
   LaTeX::Encode: 0.08
   namespace::clean: 0.24
   perl: v5.10.1
 resources:
+  bugtracker: https://github.com/LibreCat/Catmandu-BibTeX/issues
+  homepage: https://github.com/LibreCat/Catmandu-BibTeX
   license: http://dev.perl.org/licenses/
-version: 0.03
+  repository: https://github.com/LibreCat/Catmandu-BibTeX.git
+version: 0.04
