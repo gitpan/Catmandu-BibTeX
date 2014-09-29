@@ -1,17 +1,23 @@
-Catmandu::BibTeX - modules for working with bibtex data
+NAME
+    Catmandu::BibTeX - Catmandu modules for working with BibTeX data
 
-INSTALLATION
+STATUS
+MODULES
+    *   Catmandu::Importer::BibTeX
 
-To install this module, run the following commands:
+    *   Catmandu::Exporter::BibTeX
 
-	perl Build.PL
-	./Build
-	./Build test
-	./Build install
+AUTHOR
+    Nicolas Steenlant "<nicolas.steenlant at ugent.be>"
 
-SUPPORT AND DOCUMENTATION
+CONTRIBUTORS
+    Vitali Peil "<vitali.peil at uni-bielefeld.de>" Jakov Voss
+    "<voss@gbv.de>"
 
-After installing, you can find documentation for this module with the
-perldoc command.
+LICENSE AND COPYRIGHT
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of either: the GNU General Public License as published
+    by the Free Software Foundation; or the Artistic License.
 
-    perldoc Catmandu::BibTeX
+    See http://dev.perl.org/licenses/ for more information.
+
